@@ -20,10 +20,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin:0 50px;">
       <div class="navbar-nav" style="#ffff">
-        <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="PAGE">#</a>
-        
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="TestResult.jsp">Manage Testresult</a>
-                
+        <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href=""></a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="TestResult.jsp">Manage Testresult</a>        
       </div>
     </div>
   </div>

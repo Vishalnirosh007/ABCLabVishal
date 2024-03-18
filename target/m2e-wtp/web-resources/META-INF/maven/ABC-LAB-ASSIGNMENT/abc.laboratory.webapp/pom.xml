@@ -26,6 +26,7 @@
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.32</version>
 	</dependency>
+	
 	<!-- https://mvnrepository.com/artifact/taglibs/standard -->
 	<dependency>
 	    <groupId>taglibs</groupId>
@@ -45,6 +46,22 @@
     <version>4.0.1</version> <!-- Or the version you require -->
     <scope>provided</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-api</artifactId>
+	    <version>5.7.0</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-engine</artifactId>
+	    <version>5.7.0</version>
+	    <scope>test</scope>
+	</dependency>
 	  
   </dependencies>
 

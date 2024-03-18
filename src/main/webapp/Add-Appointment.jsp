@@ -9,17 +9,21 @@
 </head>
 <body>
     <div class="container-fluid">
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link" href="AppointmentDashboard">Store</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Search-Appointment.jsp">Search Specific & Update</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Add</a>
-            </li>
-        </ul>
+        <ul class="nav justify-content-center bg-dark py-2">
+   <li class="nav-item">
+    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary  nav-link " aria-current="page" href="AppointmentDashboard">Store</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link " href="Search-Appointment.jsp">Search Specific & Update</a>
+  </li>
+  <li class="nav-item">
+    <a class="text-white nav-link" href="Add-Appointment.jsp">Add</a>
+  </li>
+  
+</ul>
         <br/>
         <br/>
         <div class="container">

@@ -9,20 +9,21 @@
 </head>
 <body>
 <div class="container-fluid">
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Payment</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Search-Payment.jsp">Search Specific & Update</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Add-payment.jsp">Add</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="ReceptionistDashboard.jsp">Dashboard</a>
-        </li>
-    </ul>
+    <ul class="nav justify-content-center bg-dark py-2">
+    <li class="nav-item">
+    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="text-white  nav-link " aria-current="page" href="PaymentDashboard">Store</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link " href="Search-Payment.jsp">Search Specific & Update</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link" href="Add-payment.jsp">Add</a>
+  </li>
+  
+</ul>
     <br/>
     <p>${message}</p>
     <br/>

@@ -9,20 +9,21 @@
 </head>
 <body>
 <div class="container-fluid">
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Lab Worker</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Search-Worker.jsp">Search Specific & Update</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Add-Worker.jsp">Add</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="ReceptionistDashboard.jsp">Dashboard</a>
-        </li>
-    </ul>
+    <ul class="nav justify-content-center bg-dark py-2">
+    <li class="nav-item">
+    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="text-white  nav-link " aria-current="page" href="LabworkerDashboard">Store</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link " href="Search-Worker.jsp">Search Specific & Update</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link" href="Add-Worker.jsp">Add</a>
+  </li>
+  
+</ul>
     <br/>
     <p>${message}</p>
     <br/>
