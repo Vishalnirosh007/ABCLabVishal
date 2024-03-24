@@ -13,8 +13,8 @@ class LabWorkerTest {
         labWorker.setLabWorkerID(1);
         assertEquals(1, labWorker.getLabWorkerID());
         
-        labWorker.setLabWorkerName("Jane Doe");
-        assertEquals("Jane Doe", labWorker.getLabWorkerName());
+        labWorker.setLabWorkerName("Vishal Nirosh");
+        assertEquals("Vishal Nirosh", labWorker.getLabWorkerName());
         
         labWorker.setDescription("Laboratory technician");
         assertEquals("Laboratory technician", labWorker.getDescription());
@@ -22,10 +22,10 @@ class LabWorkerTest {
     
     @Test
     void testConstructors() {
-        LabWorker labWorker = new LabWorker(1, "Jane Doe", "Laboratory technician");
+        LabWorker labWorker = new LabWorker(1, "Vishal Nirosh", "Laboratory technician");
         
         assertEquals(1, labWorker.getLabWorkerID());
-        assertEquals("Jane Doe", labWorker.getLabWorkerName());
+        assertEquals("Vishal Nirosh", labWorker.getLabWorkerName());
         assertEquals("Laboratory technician", labWorker.getDescription());
     }
 }

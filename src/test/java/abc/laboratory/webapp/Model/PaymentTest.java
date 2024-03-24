@@ -16,7 +16,7 @@ class PaymentTest {
         payment.setPrice(100.0);
         assertEquals(100.0, payment.getPrice());
         
-        payment.setCardholderName("John Doe");
+        payment.setCardholderName("Vishal Nirosh");
         assertEquals("John Doe", payment.getCardholderName());
         
         payment.setCardNumber(1234567890);
@@ -37,7 +37,7 @@ class PaymentTest {
     
     @Test
     void testConstructors() {
-        Payment payment = new Payment(1, 100.0, "John Doe", 1234567890, "12/25", 123, "2024-03-30", 2);
+        Payment payment = new Payment(1, 100.0, "Vishal Nirosh", 1234567890, "12/25", 123, "2024-03-30", 2);
         
         assertEquals(1, payment.getPaymentId());
         assertEquals(100.0, payment.getPrice());

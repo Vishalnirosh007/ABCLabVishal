@@ -26,7 +26,7 @@ public class AppointmentService {
         return new AppointmentManager();
     }
 
-    public boolean scheduleAppointment(Appointment appointment) throws ClassNotFoundException, SQLException {
+    public boolean registerAppointment(Appointment appointment) throws ClassNotFoundException, SQLException {
         return getAppointmentManager().addAppointment(appointment);
     }
 
@@ -38,12 +38,11 @@ public class AppointmentService {
         return getAppointmentManager().getAllAppointments();
     }
 
-    public boolean updateAppointmentDetails(Appointment appointment) throws ClassNotFoundException, SQLException {
+    public boolean editTheAppointment(Appointment appointment) throws ClassNotFoundException, SQLException {
         return getAppointmentManager().updateAppointment(appointment);
     }
 
-    public boolean cancelAppointment(int appointmentID) throws ClassNotFoundException, SQLException {
+    public boolean deleteTheAppointment(int appointmentID) throws ClassNotFoundException, SQLException {
         return getAppointmentManager().deleteAppointment(appointmentID);
     }
 }
-

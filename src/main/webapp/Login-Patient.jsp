@@ -31,8 +31,8 @@
     }
     .logo {
         border-radius: 50%;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
     .navbar {
         background-color: #ffffff;
@@ -87,8 +87,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-light" >
   <div class="container-fluid" >
-    <img class="logo" alt="Logo" src="img/logo.jpg">
-    <p class="fw-bold fs-4 mt-3">ABC LAB</p>
+    <img class="logo" alt="Logo" src="img/abc.jpeg">
+    <p class="fw-bold fs-4 mt-3"> ABC LAB</p>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

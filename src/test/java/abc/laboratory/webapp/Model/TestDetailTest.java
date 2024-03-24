@@ -16,8 +16,8 @@ class TestDetailTest {
         testDetail.setAppointmentID(2);
         assertEquals(2, testDetail.getAppointmentID());
         
-        testDetail.setTechnicianName("Jane Doe");
-        assertEquals("Jane Doe", testDetail.getTechnicianName());
+        testDetail.setTechnicianName("Vishal Nirosh");
+        assertEquals("Vishal Nirosh", testDetail.getTechnicianName());
         
         testDetail.setDoctorName("Dr. Smith");
         assertEquals("Dr. Smith", testDetail.getDoctorName());
@@ -25,11 +25,11 @@ class TestDetailTest {
     
     @Test
     void testConstructors() {
-        TestDetail testDetail = new TestDetail(1, 2, "Jane Doe", "Dr. Smith");
+        TestDetail testDetail = new TestDetail(1, 2, "Vishal Nirosh", "Dr. Smith");
         
         assertEquals(1, testDetail.getIdTestDetail());
         assertEquals(2, testDetail.getAppointmentID());
-        assertEquals("Jane Doe", testDetail.getTechnicianName());
+        assertEquals("Vishal Nirosh", testDetail.getTechnicianName());
         assertEquals("Dr. Smith", testDetail.getDoctorName());
     }
 }

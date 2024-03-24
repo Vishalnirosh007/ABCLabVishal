@@ -13,27 +13,27 @@ class DoctorTest {
         doctor.setDoctorID(1);
         assertEquals(1, doctor.getDoctorID());
         
-        doctor.setFirstName("John");
-        assertEquals("John", doctor.getFirstName());
+        doctor.setFirstName("Vishal");
+        assertEquals("Vishal", doctor.getFirstName());
         
-        doctor.setLastName("Doe");
-        assertEquals("Doe", doctor.getLastName());
+        doctor.setLastName("Nirosh");
+        assertEquals("Nirosh", doctor.getLastName());
         
         doctor.setSpecialization("Cardiology");
         assertEquals("Cardiology", doctor.getSpecialization());
         
-        doctor.setEmail("john.doe@example.com");
-        assertEquals("john.doe@example.com", doctor.getEmail());
+        doctor.setEmail("Vishal.Nirosh@example.com");
+        assertEquals("Vishal.Nirosh@example.com", doctor.getEmail());
     }
     
     @Test
     void testConstructors() {
-        Doctor doctor = new Doctor(1, "John", "Doe", "Cardiology", "john.doe@example.com");
+        Doctor doctor = new Doctor(1, "Vishal", "Nirosh", "Cardiology", "Vishal.Nirosh@example.com");
         
         assertEquals(1, doctor.getDoctorID());
-        assertEquals("John", doctor.getFirstName());
-        assertEquals("Doe", doctor.getLastName());
+        assertEquals("Vishal", doctor.getFirstName());
+        assertEquals("Nirosh", doctor.getLastName());
         assertEquals("Cardiology", doctor.getSpecialization());
-        assertEquals("john.doe@example.com", doctor.getEmail());
+        assertEquals("Vishal.Nirosh@example.com", doctor.getEmail());
     }
 }

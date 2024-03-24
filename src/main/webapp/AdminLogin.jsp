@@ -11,13 +11,74 @@
 
 <style>
     body {
-      background-image: url('img/recep.jpg');
-      background-size: cover; /* Ensure the image covers the entire background */
-      background-position: center; /* Center the background image */
-      background-repeat: no-repeat; /* Prevent the background image from repeating */
-      height: 100vh; /* Set the height to 100% of the viewport height */
+        background-image: url('img/recep.jpg');
+        background-size: cover; /* Ensure the image covers the entire background */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        height: 100vh; /* Set the height to 100% of the viewport height */
     }
-  </style>
+    .logo {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin: 0 10px 0 50px;
+    }
+    .navbar {
+        background-color: #ffffff;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0;
+    }
+    .navbar-nav .nav-link {
+        color: black; /* Changed text color to black */
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0;
+        padding: 0.5rem 1rem;
+    }
+    .navbar-nav .nav-link.active {
+        color: black;
+    }
+    .navbar-toggler {
+        margin-right: 30px;
+    }
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .well {
+        padding: 0 0 0 50px;
+    }
+    .container {
+        margin-top: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: black; /* Changed text color to black */
+        margin-bottom: 2rem;
+        text-align: center; /* Centering the text */
+    }
+    .form-group {
+        margin-top: 2rem;
+        text-align: center; /* Centering the form elements */
+    }
+    label {
+        font-weight: bold;
+        color: black; /* Changed text color to black */
+    }
+    .btn-secondary {
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem 2rem;
+        font-weight: bold;
+    }
+    #errorMessage {
+        display: none;
+        color: red;
+        margin-top: 1rem;
+    }
+</style>
   
 </head>
 <body>
@@ -25,20 +86,17 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container-fluid" >
-    <img style="border-radius:50%;width: 70px;height: 70px; margin:0 10px 0 50px " alt="" src="img/logo.jpg">
+    <img class="logo" alt="" src="img/logo.jpg">
     <p class="fw-bold fs-4 mt-3" style="color: red;">Logo name</p>
-    <button style="margin:0 30px;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin:0 50px;">
-      <div class="navbar-nav" style="#ffff">
-        
-        
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
         <a class="nav-link mx-0 mx-md-3 fs-6" href="HospitlHome.jsp">Home</a>
         <a class="nav-link mx-0 mx-md-3 fs-6" href="DoctorLogin.jsp">Doctor</a>
-        <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="AdminLogin.jsp">Receptionist</a>
-         <a class="nav-link mx-0 mx-md-3 fs-6" href="LabWorkerLodgin.jsp">Technician</a>
-        
+        <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="AdminLogin.jsp">Admin</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="LabWorkerLodgin.jsp">Technician</a>
       </div>
     </div>
   </div>
@@ -46,21 +104,22 @@
 
 
 <div class="row g-0  position-relative container mt-5">
-  <div class="col-md-7    well" style="padding:0 0 0 50px ;">
+  <div class="col-md-7 well">
   
-  <div class="container mt-5 ">
-  <h2>Technician Login</h2>
+  <div class="container mt-5">
+  <h2>Admin Login</h2>
   <form id="loginForm" action="adminLoginController" method="post">
-    <div class="form-group mt-4">
+    <div class="form-group text-center"> <!-- Centering the form elements -->
         <label for="username">Username:</label><br>
-       <input type="text" id="username" name="username" class="form-control" required><br>
+       <input type="text" id="username" name="username" class="form-control mx-auto" style="width: 50%;" required><br> <!-- Centering the username field -->
     </div>
-    <div class="form-group mt-4">
+    <div class="form-group text-center"> <!-- Centering the form elements -->
         <label for="password">Password:</label><br>
-      <input type="password" id="password"  class="form-control" name="password" required><br>
+      <input type="password" id="password" class="form-control mx-auto" style="width: 50%;" name="password" required><br> <!-- Centering the password field -->
     </div>
-    
-    <button type="submit" class="btn btn-secondary mb-5 mt-4">Login</button>
+    <div class="form-group text-center"> <!-- Centering the form elements -->
+        <button type="submit" class="btn btn-secondary mb-5 mt-4">Login</button> <!-- Centering the login button -->
+    </div>
     </form>
     
         <div id="errorMessage" style="display: none; color: red;"></div>
@@ -74,10 +133,3 @@
 </div>
 </body>
 </html>
-
-
-
-
-
-
-

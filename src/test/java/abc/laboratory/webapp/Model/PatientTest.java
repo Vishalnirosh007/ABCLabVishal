@@ -13,8 +13,8 @@ class PatientTest {
         patient.setPatientID(1);
         assertEquals(1, patient.getPatientID());
         
-        patient.setPatientFullName("John Doe");
-        assertEquals("John Doe", patient.getPatientFullName());
+        patient.setPatientFullName("Vishal Nirosh");
+        assertEquals("Vishal Nirosh", patient.getPatientFullName());
         
         patient.setPatientPhoneNumber(1234567890);
         assertEquals(1234567890, patient.getPatientPhoneNumber());
@@ -28,11 +28,11 @@ class PatientTest {
         patient.setGender("Male");
         assertEquals("Male", patient.getGender());
         
-        patient.setPatientEmail("john@example.com");
-        assertEquals("john@example.com", patient.getPatientEmail());
+        patient.setPatientEmail("vishal@example.com");
+        assertEquals("vishal@example.com", patient.getPatientEmail());
         
-        patient.setPatientUsername("john123");
-        assertEquals("john123", patient.getPatientUsername());
+        patient.setPatientUsername("vishal123");
+        assertEquals("vishal123", patient.getPatientUsername());
         
         patient.setPatientPassword("password");
         assertEquals("password", patient.getPatientPassword());
@@ -40,16 +40,16 @@ class PatientTest {
     
     @Test
     void testConstructors() {
-        Patient patient = new Patient("John Doe", 1234567890, "2000-01-01", "123 Main St",
-                                      "Male", "john@example.com", "john123", "password");
+        Patient patient = new Patient("Vishal Nirosh", 1234567890, "2000-01-01", "123 Main St",
+                                      "Male", "vishal@example.com", "vishal123", "password");
         
-        assertEquals("John Doe", patient.getPatientFullName());
+        assertEquals("Vishal Nirosh", patient.getPatientFullName());
         assertEquals(1234567890, patient.getPatientPhoneNumber());
         assertEquals("2000-01-01", patient.getDateOfBirth());
         assertEquals("123 Main St", patient.getPatientAddress());
         assertEquals("Male", patient.getGender());
-        assertEquals("john@example.com", patient.getPatientEmail());
-        assertEquals("john123", patient.getPatientUsername());
+        assertEquals("vishal@example.com", patient.getPatientEmail());
+        assertEquals("vishal123", patient.getPatientUsername());
         assertEquals("password", patient.getPatientPassword());
     }
 }

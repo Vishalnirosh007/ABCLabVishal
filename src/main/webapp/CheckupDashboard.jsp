@@ -6,6 +6,24 @@
     <meta charset="UTF-8">
     <title>ABC Lab - Checkup Store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .nav-link {
+            color: #ffffff;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .btn-remove {
+            padding: 0.375rem 0.75rem;
+        }
+    </style>
 </head>
 <body>
 <div class="container-fluid">
@@ -14,7 +32,7 @@
     <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
   </li>
   <li class="nav-item">
-    <a class="text-white  nav-link " aria-current="page" href="CheckupDashboard">Store</a>
+    <a class="text-white  nav-link " aria-current="page" href="CheckupDashboard">Home</a>
   </li>
   <li class="nav-item">
     <a class="link-secondary nav-link " href="Search-Checkup-Details.jsp">Search Specific & Update</a>

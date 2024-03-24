@@ -8,12 +8,12 @@
 <style>
     .logo {
         border-radius: 50%;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         margin: 0 10px 0 50px;
     }
     .brand-name {
-        color: red;
+        color: black;
     }
     .footer {
         background-color: #f8f9fa;
@@ -46,7 +46,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <img class="logo" alt="Logo" src="img/logo.jpg">
+    <img class="logo" alt="Logo" src="img/abc.jpeg">
     <p class="brand-name fw-bold fs-4 mt-3">ABC LAB</p>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

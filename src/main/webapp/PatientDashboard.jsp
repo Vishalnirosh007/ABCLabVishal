@@ -14,13 +14,13 @@
     <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
   </li>
   <li class="nav-item">
-    <a class="text-white  nav-link " aria-current="page" href="PaymentDashboard">Store</a>
+    <a class="text-white  nav-link " aria-current="page" href="PatientDashboard">Store</a>
   </li>
   <li class="nav-item">
-    <a class="link-secondary nav-link " href="Search-Payment.jsp">Search Specific & Update</a>
+    <a class="link-secondary nav-link " href="Search-Patient-Details.jsp">Search Specific & Update</a>
   </li>
   <li class="nav-item">
-    <a class="link-secondary nav-link" href="Add-payment.jsp">Add</a>
+    <a class="link-secondary nav-link" href="Add-Patient-Details.jsp">Add</a>
   </li>
   
 </ul>
@@ -31,29 +31,33 @@
         <table class="table table-striped">
             <thead>
                 <tr class="table-dark">
-                    <th>Payment ID</th>
-                    <th>Cardholder Name</th>
-                    <th>Card Number</th>
-                    <th>Expiry Date</th>
-                    <th>CVC Number</th>
-                    <th>Payment Date</th>
                     <th>Patient ID</th>
-                    <th>Remove Payment</th>
+                    <th>Patient Full Name</th>
+                    <th>Patient Phone Number</th>
+                    <th>Date of Birth</th>
+                    <th>Patient Address</th>
+                    <th>Gender</th>
+                    <th>Patient Email</th>
+                    <th>Patient Username</th>
+                    <th>Patient Password</th>
+                    <th>Remove from Records</th>
                 </tr>
             </thead>
             <tbody>
-                <c:forEach var="payment" items="${paymentList}">
+                <c:forEach var="patient" items="${patientList}">
                     <tr>
-                        <td>${payment.paymentId}</td>
-                        <td>${payment.cardholderName}</td>
-                        <td>${payment.cardNumber}</td>
-                        <td>${payment.expiryDate}</td>
-                        <td>${payment.cvcNumber}</td>
-                        <td>${payment.paymentDate}</td>
-                        <td>${payment.patientId}</td>
+                        <td>${patient.patientID}</td>
+                        <td>${patient.patientFullName}</td>
+                        <td>${patient.patientPhoneNumber}</td>
+                        <td>${patient.dateOfBirth}</td>
+                        <td>${patient.patientAddress}</td>
+                        <td>${patient.gender}</td>
+                        <td>${patient.patientEmail}</td>
+                        <td>${patient.patientUsername}</td>
+                        <td>${patient.patientPassword}</td>
                         <td>
-                            <form method="post" action="payment">
-                                <input type="hidden" name="paymentId" value="${payment.paymentId}"/>
+                            <form method="post" action="patientController">
+                                <input type="hidden" name="patientID" value="${patient.patientID}"/>
                                 <input type="hidden" name="type" value="delete"/>
                                 <button type="submit" class="btn btn-danger">Remove</button>
                             </form>
