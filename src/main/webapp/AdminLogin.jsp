@@ -86,8 +86,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container-fluid" >
-    <img class="logo" alt="" src="img/logo.jpg">
-    <p class="fw-bold fs-4 mt-3" style="color: red;">Logo name</p>
+    <img class="logo" alt="" src="img/abc.jpeg">
+    <p class="fw-bold fs-4 mt-3" style="color: black;">ABC Lab</p>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -96,7 +96,7 @@
         <a class="nav-link mx-0 mx-md-3 fs-6" href="HospitlHome.jsp">Home</a>
         <a class="nav-link mx-0 mx-md-3 fs-6" href="DoctorLogin.jsp">Doctor</a>
         <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="AdminLogin.jsp">Admin</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="LabWorkerLodgin.jsp">Technician</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="LabWorkerLodgin.jsp">LabWorker</a>
       </div>
     </div>
   </div>

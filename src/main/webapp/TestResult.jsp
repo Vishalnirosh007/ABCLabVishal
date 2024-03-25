@@ -9,10 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+
 <div class="container-fluid">
     <ul class="nav justify-content-center bg-dark py-2">
     <li class="nav-item">
-    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="HospitlHome.jsp"> << Go to Home</a>
   </li>
   <li class="nav-item">
     <a class="text-white  nav-link " aria-current="page" href="TestResult">Store</a>

@@ -28,7 +28,7 @@
 <div class="container-fluid">
     <ul class="nav justify-content-center bg-dark py-2">
     <li class="nav-item">
-    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="PatientHomePage.jsp"> << Go to Home</a>
   </li>
   <li class="nav-item">
     <a class="text-white  nav-link " aria-current="page" href="AppointmentDashboard.jsp">Home</a>

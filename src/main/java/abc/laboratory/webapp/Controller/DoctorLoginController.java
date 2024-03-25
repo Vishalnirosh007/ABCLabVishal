@@ -17,9 +17,9 @@ public class DoctorLoginController extends HttpServlet {
 		        String password = request.getParameter("password");
 
 		       
-		        if ("Admin".equals(username) && "doc".equals(password)) {
+		        if ("admin".equals(username) && "1234".equals(password)) {
 		            
-		            response.sendRedirect("LabWorkerHomePage.jsp");
+		            response.sendRedirect("DoctorHomePage.jsp");
 		        } else {
 		          
 		            request.setAttribute("errorMessage", "Invalid username or password");

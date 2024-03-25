@@ -21,8 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin:0 50px;">
       <div class="navbar-nav" style="#ffff">
         <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="HospitlHome.jsp">Home</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="Add-Appointment.jsp">Add Appointment</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="PaymentDashboard.jsp">Make Payment</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="Login-Patient.jsp">Login</a>
         
         
       </div>
@@ -45,7 +44,7 @@
     <div class="carousel-item active" style="height: 450px">
       <img src="img/home 1.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.5);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
-       
+        
       </div>
     </div>
     <div class="carousel-item" style="height: 450px">
