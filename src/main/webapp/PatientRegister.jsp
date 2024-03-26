@@ -12,7 +12,7 @@
 
 <style>
     body {
-        background-image: url('img/doc img.jpg');
+        background-image: url('img/patient1.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;

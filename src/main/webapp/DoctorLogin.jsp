@@ -13,7 +13,7 @@
 
 <style>
     body {
-        background-image: url('img/doc img.jpg');
+        background-image: url('img/doctor1.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; 

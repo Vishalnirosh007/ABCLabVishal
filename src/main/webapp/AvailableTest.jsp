@@ -38,27 +38,27 @@
   <div class="row">
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image1.jpg" class="card-img-top" alt="Image 1">
+        <img src="img/t1.jpg" class="card-img-top" alt="Image 1">
         <div class="card-body">
-          <h5 class="card-title">Card 1</h5>
+          <h5 class="card-title">Urine Full Report (UFR)</h5>
           <p class="card-text">This is a sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image2.jpg" class="card-img-top" alt="Image 2">
+        <img src="img/t2.jpg" class="card-img-top" alt="Image 2">
         <div class="card-body">
-          <h5 class="card-title">Card 2</h5>
+          <h5 class="card-title">Thyroid Profile (TSH / fT4)</h5>
           <p class="card-text">This is another sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image3.jpg" class="card-img-top" alt="Image 3">
+        <img src="img/t3.jpg" class="card-img-top" alt="Image 3">
         <div class="card-body">
-          <h5 class="card-title">Card 3</h5>
+          <h5 class="card-title">Iron Profile (Iron / TIBC / Saturation)</h5>
           <p class="card-text">This is a third sample card. You can add any content here.</p>
         </div>
       </div>
@@ -70,27 +70,27 @@
   <div class="row">
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image1.jpg" class="card-img-top" alt="Image 1">
+        <img src="img/t4.jpg" class="card-img-top" alt="Image 1">
         <div class="card-body">
-          <h5 class="card-title">Card 1</h5>
+          <h5 class="card-title">Liver Profile (Alb/Prot/Globulin/Bilirubin Direct/Bilirubin Total/ALT/AST/GGT/ALP)</h5>
           <p class="card-text">This is a sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image2.jpg" class="card-img-top" alt="Image 2">
+        <img src="img/t9.jpg" class="card-img-top" alt="Image 2">
         <div class="card-body">
-          <h5 class="card-title">Card 2</h5>
+          <h5 class="card-title">Microalbumin In Spot Urine (MAU-Spot)</h5>
           <p class="card-text">This is another sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image3.jpg" class="card-img-top" alt="Image 3">
+        <img src="img/t7.jpg" class="card-img-top" alt="Image 3">
         <div class="card-body">
-          <h5 class="card-title">Card 3</h5>
+          <h5 class="card-title"> Occult Blood</h5>
           <p class="card-text">This is a third sample card. You can add any content here.</p>
         </div>
       </div>
@@ -102,35 +102,34 @@
   <div class="row">
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image1.jpg" class="card-img-top" alt="Image 1">
+        <img src="img/t6.jpg" class="card-img-top" alt="Image 1">
         <div class="card-body">
-          <h5 class="card-title">Card 1</h5>
+          <h5 class="card-title">Vitamin D (25-Hydroxy)</h5>
           <p class="card-text">This is a sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image2.jpg" class="card-img-top" alt="Image 2">
+        <img src="img/t7.jpg" class="card-img-top" alt="Image 2">
         <div class="card-body">
-          <h5 class="card-title">Card 2</h5>
+          <h5 class="card-title">PSA, Total</h5>
           <p class="card-text">This is another sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-3">
       <div class="card">
-        <img src="image3.jpg" class="card-img-top" alt="Image 3">
+        <img src="img/t8.jpg" class="card-img-top" alt="Image 3">
         <div class="card-body">
-          <h5 class="card-title">Card 3</h5>
+          <h5 class="card-title">Prolactin</h5>
           <p class="card-text">This is a third sample card. You can add any content here.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-		</div>
+</div>
 
 
 

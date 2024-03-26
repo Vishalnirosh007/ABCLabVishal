@@ -43,21 +43,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" style="height: 450px">
-      <img src="img/home 1.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.5);">
+      <img src="img/home1.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.5);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
         <h5 class="display-1 fw-bolder text-capitalize">Doctor Portal</h5>
         
       </div>
     </div>
     <div class="carousel-item" style="height: 450px">
-      <img src="img/home 2.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
+      <img src="img/home2.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
         <h5 class="display-1 fw-bolder text-capitalize">Admin Portal</h5>
         
       </div>
     </div>
     <div class="carousel-item" style="height: 450px">
-      <img src="img/home 2.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
+      <img src="img/home3.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
         <h5 class="display-1 fw-bolder text-capitalize">LabWorker Portal</h5>
         
@@ -86,45 +86,7 @@
 
 
 
-<div class="row align-items-center"  style="padding: 50px">
-    <div class="col" style="margin:10px;">
-		<div class="card text-center" style="width: 18rem;">
-  			<div class="card-body">
-    			<h5 class="card-title">Card title</h5>
-    			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="card-link">Card link</a>
-    			<a href="#" class="card-link">Another link</a>
-  			</div>
-		</div>
-    </div>
-    
-    <div class="col" style="margin:10px;">
-		<div class="card text-center" style="width: 18rem;">
-  			<div class="card-body">
-    			<h5 class="card-title">Card title</h5>
-    			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="card-link">Card link</a>
-    			<a href="#" class="card-link">Another link</a>
-  			</div>
-		</div>
-    </div>
-    
-    <div class="col" style="margin:10px;">
-		<div class="card text-center" style="width: 18rem;">
-  			<div class="card-body">
-    			<h5 class="card-title">Card title</h5>
-    			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="card-link">Card link</a>
-    			<a href="#" class="card-link">Another link</a>
-  			</div>
-		</div>
-    </div>
-    
-  </div>
- 
+
 
 </body>
 </html>

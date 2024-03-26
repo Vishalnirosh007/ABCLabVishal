@@ -11,7 +11,7 @@
 
 <style>
     body {
-        background-image: url('img/tec 1.jpeg');
+        background-image: url('img/tech.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; 
@@ -54,7 +54,7 @@
     h2 {
         font-size: 2.5rem;
         font-weight: bold;
-        color: black;
+        color: white;
         margin-bottom: 2rem;
         text-align: center; /* Centering the text */
     }
@@ -64,7 +64,7 @@
     }
     label {
         font-weight: bold;
-        color: black;
+        color: white;
     }
     .btn-secondary {
         background-color: red;

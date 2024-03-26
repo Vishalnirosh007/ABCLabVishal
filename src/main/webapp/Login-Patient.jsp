@@ -18,11 +18,11 @@
 </script>
 <style>
     body {
-    background-image: url('img/doc img.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
-      background-size: cover; /* Ensure the image covers the entire background */
-      background-position: center; /* Center the background image */
-      background-repeat: no-repeat; /* Prevent the background image from repeating */
-      height: 100vh; /* Set the height to 100% of the viewport height */
+    background-image: url('img/patient1.jpg'); 
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat; 
+      height: 100vh; 
       
         background-color: #f8f9fa;
         min-height: 100vh;

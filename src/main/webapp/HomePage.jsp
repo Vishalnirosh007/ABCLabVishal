@@ -42,19 +42,19 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" style="height: 450px">
-      <img src="img/home 1.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.5);">
+      <img src="img/home1.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.5);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
         
       </div>
     </div>
     <div class="carousel-item" style="height: 450px">
-      <img src="img/home 2.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
+      <img src="img/home2.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
         
       </div>
     </div>
     <div class="carousel-item" style="height: 450px">
-      <img src="img/home 2.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
+      <img src="img/home3.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.6);">
       <div class="carousel-caption d-none d-md-block top-0 mt-4">
         
       </div>
@@ -70,56 +70,6 @@
   </button>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row align-items-center"  style="padding: 50px">
-    <div class="col" style="margin:10px;">
-		<div class="card text-center" style="width: 18rem;">
-  			<div class="card-body">
-    			<h5 class="card-title">Card title</h5>
-    			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="card-link">Card link</a>
-    			<a href="#" class="card-link">Another link</a>
-  			</div>
-		</div>
-    </div>
-    
-    <div class="col" style="margin:10px;">
-		<div class="card text-center" style="width: 18rem;">
-  			<div class="card-body">
-    			<h5 class="card-title">Card title</h5>
-    			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="card-link">Card link</a>
-    			<a href="#" class="card-link">Another link</a>
-  			</div>
-		</div>
-    </div>
-    
-    <div class="col" style="margin:10px;">
-		<div class="card text-center" style="width: 18rem;">
-  			<div class="card-body">
-    			<h5 class="card-title">Card title</h5>
-    			<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="card-link">Card link</a>
-    			<a href="#" class="card-link">Another link</a>
-  			</div>
-		</div>
-    </div>
-    
-  </div>
   
   
   
@@ -131,26 +81,26 @@
  
   <div class="row g-0 bg-light position-relative px-5">
   <div class="col-md-6 mb-md-0 p-md-4 ">
-    <img src="img/home 3.jpg" class="w-100" alt="...">
+    <img src="img/home3.jpg" class="w-100" alt="...">
   </div>
   <div class="col-md-6 p-4 ps-md-0 p-3 text-center">
-    <h5 class="mt-2 mb-3 fs-2">Columns with stretched link</h5>
-    <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-    <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-    <a href="#" class="stretched-link">Go somewhere</a>
+    <h5 class="mt-2 mb-3 fs-2">ABC Lab</h5>
+    <p>ABC Lab is a pioneering research institution dedicated to advancing science and technology across diverse fields. With a focus on innovation and collaboration, we strive to tackle complex challenges and drive positive change for society. Through cutting-edge research and a commitment to excellence, we aim to shape the future of science and inspire the next generation of leaders. Join us as we push the boundaries of knowledge and create a brighter tomorrow.</p>
+    <p>At ABC Lab, our team of passionate scientists, researchers, and engineers work tirelessly to unravel the mysteries of the natural world and develop novel solutions to improve human health, enhance sustainability, and drive technological advancement. Through cutting-edge experimentation, rigorous analysis, and a relentless pursuit of excellence, we strive to make meaningful contributions to society and inspire the next generation of scientific leaders.</p>
+    
   </div>
 </div>
 
   <div class="row g-0 bg-light position-relative p-5">
   
   <div class="col-md-6 p-4 ps-md-0 p-3 text-center">
-    <h5 class="mt-2 mb-3 fs-2">Columns with stretched link</h5>
-    <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-    <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-    <a href="#" class="stretched-link">Go somewhere</a>
+    <h5 class="mt-2 mb-3 fs-2">ABC Lab</h5>
+    <p>With state-of-the-art facilities and a culture of curiosity and discovery, ABC Lab stands at the forefront of scientific inquiry, consistently producing groundbreaking research and transformative technologies. From fundamental discoveries to practical applications, we aim to translate scientific knowledge into real-world impact, addressing some of the most pressing challenges facing humanity today.</p>
+    <p>At ABC Lab, we believe that the pursuit of knowledge knows no bounds, and we are committed to pushing the frontiers of science for the betterment of our world. Join us on our journey as we continue to explore, innovate, and create a brighter future for generations to come.</p>
+    
   </div>
   <div class="col-md-6 mb-md-0 p-md-4 ">
-    <img src="img/home 3.jpg" class="w-100" alt="...">
+    <img src="img/home2.jpg" class="w-100" alt="...">
   </div>
 </div>
 
@@ -158,26 +108,6 @@
 
 
 
-<div class="d-flex justify-content-center align-items-center">
-
-<div class="card m-5" style="width: 20rem;">
-  <img src="img/home 2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div><div class="card m-5" style="width: 20rem;">
-  <img src="img/home 2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div><div class="card m-5" style="width: 20rem;">
-  <img src="img/home 2.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-
-</div>
 
 
 
