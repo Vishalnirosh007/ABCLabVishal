@@ -34,28 +34,28 @@
 </head>
 <body>
 <div class="container-fluid">
-       
-        <ul class="nav justify-content-center bg-dark py-2">
-            <li class="nav-item">
-                <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="PatientHomePage.jsp"> << Go to Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="link-secondary  nav-link " aria-current="page" href="AppointmentDashboard">Store</a>
-            </li>
-            <li class="nav-item">
-                <a class="text-white nav-link " href="Search-Appointment.jsp">Search Specific & Update</a>
-            </li>
-            <li class="nav-item">
-                <a class="link-secondary nav-link" href="Add-Appointment.jsp">Add</a>
-            </li>
-        </ul>
+    <ul class="nav justify-content-center bg-dark py-2">
+    <li class="nav-item">
+    <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="text-white  nav-link " aria-current="page" href="AdminAppointment">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link " href="AdminSearch-Appointment.jsp">Search Specific & Update</a>
+  </li>
+  <li class="nav-item">
+    <a class="link-secondary nav-link" href="AdminAdd-Appointment.jsp">Add</a>
+  </li>
+  
+</ul>
         <br/>
         <br/>
     <div class="container form-group p-5 mx-5 mb-4 bg-light">
         <div class="row">
             <div class="col-md-6">
                 <h3>Search Appointment</h3>
-                <form method="get" action="appointmentController">
+                <form method="get" action="adminappointmentController">
                     <div class="form-group">
                         Enter Appointment ID: <input type="text" class="form-control" name="appointmentID">
                         <input type="hidden" name="type" value="specific">
@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-6">
                 <h3>Edit Appointment</h3>
-                <form method="post" action="appointmentController">
+                <form method="post" action="adminappointmentController">
                     <label for="appointmentID">Appointment ID:</label>
                     <input type="text" readonly class="form-control" id="appointmentID" name="appointmentID" value="${not empty appointment ? appointment.appointmentID : ''}"/>
                     <br/>
@@ -87,7 +87,7 @@
                     <input type="text" class="form-control" id="appointmentStatus" name="appointmentStatus" value="${not empty appointment ? appointment.appointmentStatus : ''}"/>
                     <input type="hidden" name="type" value="update"/>
                     <br/>
-                    
+                    <button type="submit" class="btn btn-warning">Update</button>
                 </form>
             </div>
         </div>

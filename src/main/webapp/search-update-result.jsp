@@ -24,14 +24,12 @@
         <!-- Navigation Bar -->
         <ul class="nav justify-content-center bg-dark py-2">
             <li class="nav-item">
-                <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="AdminHomePage.jsp"> << Go to Home</a>
+                <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="HospitlHome.jsp"> << Go to Home</a>
             </li>
             <li class="nav-item">
                 <a class="link-secondary  nav-link " aria-current="page" href="TestResult">Store</a>
             </li>
-            <li class="nav-item">
-                <a class="text-white nav-link " href="search-update-result.jsp">Search Specific & Update</a>
-            </li>
+           
             <li class="nav-item">
                 <a class="link-secondary nav-link" href="add-result.jsp">Add</a>
             </li>

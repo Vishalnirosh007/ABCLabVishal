@@ -70,7 +70,7 @@
                         <td>${payment.paymentDate}</td>
                         <td>${payment.patientId}</td>
                         <td>
-                            <form method="post" action="payment">
+                            <form method="post" action="paymentController">
                                 <input type="hidden" name="paymentId" value="${payment.paymentId}"/>
                                 <input type="hidden" name="type" value="delete"/>
                                 <button type="submit" class="btn btn-danger">Remove</button>

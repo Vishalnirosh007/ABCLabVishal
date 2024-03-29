@@ -20,12 +20,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin:0 50px;">
       <div class="navbar-nav" style="#ffff">
-        <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="AdminHomePage.jsp">Home</a>
+        <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="HospitlHome.jsp">Home</a>
         <a class="nav-link mx-0 mx-md-3  fs-6" href="CheckupDashboard.jsp">Manage Checkup</a>
         <a class="nav-link mx-0 mx-md-3 fs-6" href="LabworkerDashboard.jsp">Manage LabWorker</a>
           <a class="nav-link mx-0 mx-md-3 fs-6" href="DoctorDashboard.jsp">Manage Doctor</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="AppointmentDashboard.jsp">Manage Appointment</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="PatientDashboard.jsp">Manage Patient</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="AdminAppointment.jsp">Manage Appointment</a>
                 
                 
         

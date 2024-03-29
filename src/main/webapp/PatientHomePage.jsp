@@ -22,7 +22,7 @@
       <div class="navbar-nav" style="#ffff">
         <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="HospitlHome.jsp">Home</a>
         <a class="nav-link mx-0 mx-md-3 fs-6" href="Add-Appointment.jsp">Add Appointment</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="PaymentDashboard.jsp">Make Payment</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="Add-payment.jsp">Make Payment</a>
         
         
       </div>

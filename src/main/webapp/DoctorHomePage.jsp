@@ -22,12 +22,24 @@
       <div class="navbar-nav" style="#ffff">
         <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="HospitlHome.jsp">Home</a>
         <a class="nav-link mx-0 mx-md-3  fs-6" href="TestResult.jsp">Manage TestResults</a>
-       
-                
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>   
       </div>
     </div>
   </div>
 </nav>
-
+<div class="carousel-inner">
+    <div class="carousel-item active" style="height: 450px">
+      <img src="img/home1.jpg" class="d-block w-100" alt="..." style="height: 100%; object-fit:cover; filter: brightness(0.5);">
+      <div class="carousel-caption d-none d-md-block top-0 mt-4">
+        <h5 class="display-1 fw-bolder text-capitalize">Welcome to Doctor Portal</h5>
+</div>
+</div>
+</div>
 </body>
 </html>

@@ -76,6 +76,12 @@
   	<description></description>
   	<servlet-class>abc.laboratory.webapp.Controller.LabWorkerLoginController</servlet-class>
   </servlet>
+   <servlet>
+   	<servlet-name>AdminAppointment</servlet-name>
+   	<display-name>AdminAppointment</display-name>
+   	<description></description>
+   	<servlet-class>abc.laboratory.webapp.Controller.AdminAppointment</servlet-class>
+   </servlet>
   <servlet-mapping>
   	<servlet-name>DoctorController</servlet-name>
   	<url-pattern>/DoctorDashboard</url-pattern>
@@ -101,6 +107,7 @@
   	<servlet-name>AppointmentController</servlet-name>
   	<url-pattern>/AppointmentDashboard</url-pattern>
   </servlet-mapping>
+ 
   <servlet-mapping>
     <servlet-name>TestResultController</servlet-name>
     <url-pattern>/TestResult</url-pattern>
@@ -128,5 +135,9 @@
   <servlet-mapping>
   	<servlet-name>LabWorkerLoginController</servlet-name>
   	<url-pattern>/LabWorkerLodgin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminAppointment</servlet-name>
+  	<url-pattern>/AdminAppointment</url-pattern>
   </servlet-mapping>
 </web-app>

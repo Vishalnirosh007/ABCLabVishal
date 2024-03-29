@@ -20,7 +20,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin:0 50px;">
       <div class="navbar-nav" style="#ffff">
-              <a class="nav-link mx-0 mx-md-3 fs-6" href="Dashboard.jsp">Home </a>
+              <a class="nav-link mx-0 mx-md-3 fs-6" href="Dashboard.jsp">Home</a>
         <a class="nav-link mx-0 mx-md-3 fs-6" href="PatientLogReg.jsp">Patient</a>
                 <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="AvailableTest.jsp">Available Test</a>
         

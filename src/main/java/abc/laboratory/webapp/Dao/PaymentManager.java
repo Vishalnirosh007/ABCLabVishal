@@ -126,7 +126,6 @@ public class PaymentManager {
 
         PreparedStatement ps = connection.prepareStatement(query);
         ps.setInt(1, paymentId);
-
         int result = ps.executeUpdate();
 
         ps.close();

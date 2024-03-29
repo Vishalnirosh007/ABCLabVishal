@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container-fluid" >
-    <img style="border-radius:50%;width: 70px;height: 70px; margin:0 10px 0 50px " alt="" src="img/abc.jpeg"">
+    <img style="border-radius:50%;width: 70px;height: 70px; margin:0 10px 0 50px " alt="" src="img/abc.jpeg">
     <p class="fw-bold fs-4 mt-3" style="color: black;">ABC LAB</p>
     <button style="margin:0 30px;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

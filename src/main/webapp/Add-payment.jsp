@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Payment</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
         body {
@@ -40,11 +39,9 @@
             <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="PatientHomePage.jsp"> << Go to Home</a>
         </li>
         <li class="nav-item">
-            <a class="link-secondary  nav-link " aria-current="page" href="PaymentDashboard">Home</a>
+            <a class="link-secondary  nav-link " aria-current="page" href="PaymentDashboard"></a>
         </li>
-        <li class="nav-item">
-            <a class="link-secondary nav-link " href="Search-Payment.jsp">Search Specific & Update</a>
-        </li>
+        
         <li class="nav-item">
             <a class="text-white nav-link" href="Add-payment.jsp">Add</a>
         </li>

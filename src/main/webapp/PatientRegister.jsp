@@ -68,8 +68,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" href="Dashboard.jsp">Home</a>
-                <a class="nav-link active" href="PatientLogReg.jsp">Patient</a>
+                <a class="nav-link" href="HomePage.jsp">Home</a>
+                <a class="nav-link active" href="Login-Patient.jsp">Login</a>
                 <a class="nav-link" href="AvailableTest.jsp">Available Test</a>
             </div>
         </div>

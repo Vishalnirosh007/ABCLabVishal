@@ -158,9 +158,9 @@ public class PaymentController extends HttpServlet {
         try {
             result = service.cancelPayment(paymentId);
             if (result) {
-                message = "Payment ID " + paymentId + " has been successfully canceled!";
+                message = "Payment with ID " + paymentId + " has been successfully canceled!";
             } else {
-                message = "Failed to cancel the payment! Payment ID: " + paymentId;
+                message = "Failed to cancel the payment with ID: " + paymentId;
             }
         } catch (ClassNotFoundException | SQLException e) {
             message = e.getMessage();

@@ -45,7 +45,7 @@
                 <h3>Search Payment</h3>
                 <br/>
                 <form method="get" action="paymentController">
-                    Enter Payment ID: <input type="text" name="paymentid">
+                    Enter Payment ID: <input type="text" name="paymentId">
                     <input type="hidden" name="type" value="specific">
                     <button type="submit" class="btn btn-info">Search</button>            
                 </form>

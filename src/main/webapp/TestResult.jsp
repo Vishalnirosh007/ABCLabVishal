@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="ISO-8859-1">
-    <title>kfc colombo</title>
+    <title>Test Result </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -16,11 +16,9 @@
     <a class="link-warning nav-link px-5 mx-5" aria-current="page" href="HospitlHome.jsp"> << Go to Home</a>
   </li>
   <li class="nav-item">
-    <a class="text-white  nav-link " aria-current="page" href="TestResult">Store</a>
+    <a class="text-white  nav-link " aria-current="page" href="TestResult">Home</a>
   </li>
-  <li class="nav-item">
-    <a class="link-secondary nav-link " href="search-update-result.jsp">Search Specific & Update</a>
-  </li>
+  
   <li class="nav-item">
     <a class="link-secondary nav-link" href="add-result.jsp">Add</a>
   </li>
