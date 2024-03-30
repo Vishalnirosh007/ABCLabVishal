@@ -21,7 +21,9 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin:0 50px;">
       <div class="navbar-nav" style="#ffff">
         <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="HospitlHome.jsp">Home</a>
-        <a class="nav-link mx-0 mx-md-3 fs-6" href="Login-Patient.jsp">Login</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="Login-Patient.jsp">Patient Login</a>
+        <a class="nav-link mx-0 mx-md-3 fs-6" href="PatientRegister.jsp">Patient Register </a>
+        
         
         
       </div>

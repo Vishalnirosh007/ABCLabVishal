@@ -94,7 +94,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link mx-0 mx-md-3  fs-6" href="Dashboard.jsp">Home</a>
+        <a class="nav-link mx-0 mx-md-3  fs-6" href="HomePage.jsp">Home</a>
         <a class="nav-link active mx-0 mx-md-3 fs-6" aria-current="page" href="PatientLogReg.jsp">Patient</a>
         <a class="nav-link mx-0 mx-md-3 fs-6" href="AvailableTest.jsp">Available Test</a>
       </div>

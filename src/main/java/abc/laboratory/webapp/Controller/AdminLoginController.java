@@ -16,7 +16,7 @@ public class AdminLoginController extends HttpServlet {
 	        String password = request.getParameter("password");
 
 	       
-	        if ("Admin".equals(username) && "Admin".equals(password)) {
+	        if ("admin".equals(username) && "0000".equals(password)) {
 	            
 	            response.sendRedirect("AdminHomePage.jsp");
 	        } else {

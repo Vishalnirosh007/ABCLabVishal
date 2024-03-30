@@ -17,7 +17,7 @@ public class LabWorkerLoginController extends HttpServlet {
 		        String password = request.getParameter("password");
 
 		       
-		        if ("Admin".equals(username) && "Admin1".equals(password)) {
+		        if ("labworker".equals(username) && "labworker".equals(password)) {
 		            
 		            response.sendRedirect("LabWorkerHomePage.jsp");
 		        } else {
